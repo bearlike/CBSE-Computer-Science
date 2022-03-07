@@ -3,15 +3,18 @@
 # [CBSE Computer Science (Class 11 and 12)](https://thekrishna.in/CBSE-Computer-Science/)
 ![AY 2021-22](https://img.shields.io/badge/Academic%20Year-2021--2022-blue)
 [![Board](https://img.shields.io/badge/Board-CBSE-blue)](https://cbseacademic.nic.in/web_material/CurriculumMain22/SrSec/Computer_Science_SrSec_2021-22.pdf)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bearlike/CBSE-Computer-Science/current)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bearlike/CBSE-Computer-Science/HEAD)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bearlike/CBSE-Computer-Science)
 
 Study materials for Computer Science (Python and MySQL) for students of CBSE Class 11 and Class 12. Use [Binder](https://mybinder.org/v2/gh/bearlike/CBSE-Computer-Science/HEAD) to open those notebooks in an executable environment.
+
 # Table of Contents 👀
 
-1. Python - Stacks and Queues: [`Web`](https://thekrishna.in/CBSE-Computer-Science/Python%20-%20Stacks%20and%20Queues.html), [`Jupyter`](Python%20-%20Stacks%20and%20Queues.ipynb)
-2. Python - MySQL connectivity: [`Web`](https://thekrishna.in/CBSE-Computer-Science/Python%20-%20MySQL%20Connectivity.html), [`Jupyter`](Python%20-%20MySQL%20Connectivity.ipynb)
-3. MySQL - Cheat Sheet for Syntax and Usages: [`PDF`](https://thekrishna.in/CBSE-Computer-Science/Class_12_MySQL_Cheat_Sheet.pdf)
-4. Networking: [`PDF`](https://thekrishna.in/CBSE-Computer-Science/Class_12_Networking.pdf)
+1. Python - Basics and Strings: [`Web`](https://thekrishna.in/CBSE-Computer-Science/Python%20-%20Basics%20and%20Strings.html), [`Jupyter`](Python%20-%20Basics%20and%20Strings.ipynb)
+2. Python - Stacks and Queues: [`Web`](https://thekrishna.in/CBSE-Computer-Science/Python%20-%20Stacks%20and%20Queues.html), [`Jupyter`](Python%20-%20Stacks%20and%20Queues.ipynb)
+3. Python - MySQL connectivity: [`Web`](https://thekrishna.in/CBSE-Computer-Science/Python%20-%20MySQL%20Connectivity.html), [`Jupyter`](Python%20-%20MySQL%20Connectivity.ipynb)
+4. MySQL - Cheat Sheet for Syntax and Usages: [`PDF`](https://thekrishna.in/CBSE-Computer-Science/Class_12_MySQL_Cheat_Sheet.pdf)
+5. Networking: [`PDF`](https://thekrishna.in/CBSE-Computer-Science/Class_12_Networking.pdf)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -36,6 +39,6 @@ Study materials for Computer Science (Python and MySQL) for students of CBSE Cla
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 # License
-See `LICENSE` file in this repository.
+See [`LICENSE`](LICENSE) file in this repository.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
