@@ -1,0 +1,49 @@
+version: "3.9"
+   
+services:
+  jupyter:
+    image: jupyter/minimal-notebook
+    ports:
+      - "81:8888"
+    volumes:
+      - /home/kk/jupyter/notebooks:/home/jovyan/
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      GRANT_SUDO: "yes" 
+    command: "start-notebook.sh --NotebookApp.token='' --NotebookApp.password='' --allow-root"
+    restart:
+      on-failure
+
+  db:
+    image: mariadb
+    container_name: db
+    hostname: "mysql-server"
+    ports:
+      - "3306:3306"
+    volumes:
+      - /home/kk/jupyter/db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "0000"
+      MYSQL_DATABASE: "sakila"
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "password"
+    restart:
+      on-failure
+      
+  phpmyadmin:
+    container_name: pma
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    ports: 
+      - "82:80"
+    restart:
+      on-failure
+
+      
+networks:
+  dev-network:
